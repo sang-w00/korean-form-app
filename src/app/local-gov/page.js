@@ -303,10 +303,6 @@ export default function LocalGovForm() {
                   </tr>
                 </tbody>
               </table>
-              
-              <p className={styles.note}>
-                ※ 설명회 세부 장소는 수요조사 후 개별(핸드폰) 통보
-              </p>
             </div>
             
             {submitError && (
