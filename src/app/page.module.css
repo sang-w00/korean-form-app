@@ -1,0 +1,222 @@
+/* File: src/app/page.module.css */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-right: 1rem;
+}
+
+.categoryBox {
+  background-color: #fffbeb;
+  border: 1px solid #e6c35a;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+  border-radius: 2px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+.sectionTitle {
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.emptyCheckbox {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #999;
+  border-radius: 2px;
+  background-color: #fff;
+  margin-right: 5px;
+}
+
+.subSection {
+  padding: 1rem;
+}
+
+.subSection h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.table th {
+  background-color: #f0f0f0;
+}
+
+.note {
+  font-size: 0.85rem;
+  margin: 1rem 0;
+  color: #555;
+}
+
+.consentBox {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.consentBox label {
+  margin-left: 8px;
+}
+
+.registrationTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.registrationTable td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.registrationTable td:nth-child(4) {
+  width: 40%; /* 넓은 칸 - 신청일자 및 장소 */
+}
+
+.registrationTable td:nth-child(1),
+.registrationTable td:nth-child(3) {
+  width: 15%; /* 레이블 칸 */
+  background-color: #eef1f9; /* 지자체 페이지와 같은 배경색 추가 */
+}
+
+.registrationTable td:nth-child(2) {
+  width: 30%; /* 입력 칸 */
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.dateSelection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  white-space: nowrap;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.submitButton {
+  padding: 0.75rem 2rem;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submitButton:hover {
+  background-color: #1557b0;
+}
+
+.submitButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.successMessage {
+  text-align: center;
+  padding: 2rem;
+}
+
+.successMessage h2 {
+  color: #4caf50;
+  margin-bottom: 1.5rem;
+}
+
+.errorMessage {
+  background-color: #ffebee;
+  color: #d32f2f;
+  padding: 1rem;
+  border-radius: 4px;
+  margin: 1rem 0;
+  text-align: center;
+  font-weight: 500;
+  border-left: 4px solid #d32f2f;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
