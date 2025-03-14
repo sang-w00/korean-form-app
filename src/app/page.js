@@ -244,7 +244,7 @@ export default function Home() {
                             checked={formData.selectedDate === "4.18.(금), 세종"}
                             onChange={handleInputChange}
                           />
-                          <label htmlFor="date1">4.10.(목), 서울</label>
+                          <label htmlFor="date1">4.18.(금), 세종</label>
                         </div>
                         <div>
                           <input 
@@ -255,7 +255,7 @@ export default function Home() {
                             checked={formData.selectedDate === "4.24.(목), 서울"}
                             onChange={handleInputChange}
                           />
-                          <label htmlFor="date2">4.18.(금), 세종</label>
+                          <label htmlFor="date2">4.24.(목), 서울</label>
                         </div>
                       </div>
                     </td>

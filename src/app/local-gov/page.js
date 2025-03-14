@@ -268,13 +268,13 @@ export default function LocalGovForm() {
                         <div>
                           <input 
                             type="radio" 
-                            id="location_gwacheon" 
+                            id="location_seoul" 
                             name="selectedLocation"
-                            value="5.08.(목), 경인지방통계청(과천)"
-                            checked={formData.selectedLocation === "5.08.(목), 경인지방통계청(과천)"}
+                            value="5.08.(목), 경인지방통계청(서울)"
+                            checked={formData.selectedLocation === "5.08.(목), 경인지방통계청(서울)"}
                             onChange={handleInputChange}
                           />
-                          <label htmlFor="location_gwacheon">5.08.(목), 경인지방통계청(과천)</label>
+                          <label htmlFor="location_seoul">5.08.(목), 경인지방통계청(서울)</label>
                         </div>
                         <div>
                           <input 
