@@ -264,7 +264,7 @@ export default function Home() {
               </table>
               
               <p className={styles.note}>
-                ※ 설명회 장소: 서울(상암 에스플랙스센터), 세종(정부세종종컨벤션센터)
+                ※ 설명회 장소: 서울(상암 에스플랙스센터), 세종(정부세종컨벤션센터)
               </p>
             </div>
             
