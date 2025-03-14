@@ -240,8 +240,8 @@ export default function Home() {
                             type="radio" 
                             id="date1" 
                             name="selectedDate"
-                            value="4.10.(목), 서울"
-                            checked={formData.selectedDate === "4.10.(목), 서울"}
+                            value="4.18.(금), 세종"
+                            checked={formData.selectedDate === "4.18.(금), 세종"}
                             onChange={handleInputChange}
                           />
                           <label htmlFor="date1">4.10.(목), 서울</label>
@@ -251,8 +251,8 @@ export default function Home() {
                             type="radio" 
                             id="date2" 
                             name="selectedDate"
-                            value="4.18.(금), 세종"
-                            checked={formData.selectedDate === "4.18.(금), 세종"}
+                            value="4.24.(목), 서울"
+                            checked={formData.selectedDate === "4.24.(목), 서울"}
                             onChange={handleInputChange}
                           />
                           <label htmlFor="date2">4.18.(금), 세종</label>
@@ -264,7 +264,7 @@ export default function Home() {
               </table>
               
               <p className={styles.note}>
-                ※ 설명회 세부 장소는 수요조사 후 개별(핸드폰) 통보
+                ※ 설명회 장소: 서울(상암 에스플랙스센터), 세종(정부세종종컨벤션센터)
               </p>
             </div>
             

@@ -246,57 +246,57 @@ export default function LocalGovForm() {
                         <div>
                           <input 
                             type="radio" 
-                            id="location_gwangju" 
+                            id="location_busan" 
                             name="selectedLocation"
-                            value="4.00.(목), 경인지방통계청(과천)"
-                            checked={formData.selectedLocation === "4.00.(목), 경인지방통계청(과천)"}
+                            value="4.15.(화), 동남지방통계청(부산)"
+                            checked={formData.selectedLocation === "4.15.(화), 동남지방통계청(부산)"}
                             onChange={handleInputChange}
                           />
-                          <label htmlFor="location_gwangju">4.00.(목), 경인지방통계청(과천)</label>
+                          <label htmlFor="location_busan">4.15.(화), 동남지방통계청(부산)</label>
                         </div>
                         <div>
                           <input 
                             type="radio" 
                             id="location_daegu" 
                             name="selectedLocation"
-                            value="4.00.(목), 동북지방통계청(대구)"
-                            checked={formData.selectedLocation === "4.00.(목), 동북지방통계청(대구)"}
+                            value="5.02.(금), 동북지방통계청(대구)"
+                            checked={formData.selectedLocation === "5.02.(금), 동북지방통계청(대구)"}
                             onChange={handleInputChange}
                           />
-                          <label htmlFor="location_daegu">4.00.(목), 동북지방통계청(대구)</label>
+                          <label htmlFor="location_daegu">5.02.(금), 동북지방통계청(대구)</label>
                         </div>
                         <div>
                           <input 
                             type="radio" 
-                            id="location_gwangju2" 
+                            id="location_gwacheon" 
                             name="selectedLocation"
-                            value="4.00.(목), 호남지방통계청(광주)"
-                            checked={formData.selectedLocation === "4.00.(목), 호남지방통계청(광주)"}
+                            value="5.08.(목), 경인지방통계청(과천)"
+                            checked={formData.selectedLocation === "5.08.(목), 경인지방통계청(과천)"}
                             onChange={handleInputChange}
                           />
-                          <label htmlFor="location_gwangju2">4.00.(목), 호남지방통계청(광주)</label>
+                          <label htmlFor="location_gwacheon">5.08.(목), 경인지방통계청(과천)</label>
                         </div>
                         <div>
                           <input 
                             type="radio" 
-                            id="location_busan" 
+                            id="location_gwangju" 
                             name="selectedLocation"
-                            value="4.00.(목), 동남지방통계청(부산)"
-                            checked={formData.selectedLocation === "4.00.(목), 동남지방통계청(부산)"}
+                            value="5.14.(수), 호남지방통계청(광주)"
+                            checked={formData.selectedLocation === "5.14.(수), 호남지방통계청(광주)"}
                             onChange={handleInputChange}
                           />
-                          <label htmlFor="location_busan">4.00.(목), 동남지방통계청(부산)</label>
+                          <label htmlFor="location_gwangju">5.14.(수), 호남지방통계청(광주)</label>
                         </div>
                         <div>
                           <input 
                             type="radio" 
                             id="location_daejeon" 
                             name="selectedLocation"
-                            value="4.00.(목), 충청지방통계청(대전)"
-                            checked={formData.selectedLocation === "4.00.(목), 충청지방통계청(대전)"}
+                            value="5.20.(화), 충청지방통계청(대전)"
+                            checked={formData.selectedLocation === "5.20.(화), 충청지방통계청(대전)"}
                             onChange={handleInputChange}
                           />
-                          <label htmlFor="location_daejeon">4.00.(목), 충청지방통계청(대전)</label>
+                          <label htmlFor="location_daejeon">5.20.(화), 충청지방통계청(대전)</label>
                         </div>
                       </div>
                     </td>
