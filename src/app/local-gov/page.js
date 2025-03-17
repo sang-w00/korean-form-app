@@ -259,11 +259,11 @@ export default function LocalGovForm() {
                             type="radio" 
                             id="location_daegu" 
                             name="selectedLocation"
-                            value="5.01.(금), 동북지방통계청(대구)"
-                            checked={formData.selectedLocation === "5.01.(금), 동북지방통계청(대구)"}
+                            value="5.01.(목), 동북지방통계청(대구)"
+                            checked={formData.selectedLocation === "5.01.(목), 동북지방통계청(대구)"}
                             onChange={handleInputChange}
                           />
-                          <label htmlFor="location_daegu">5.01.(금), 동북지방통계청(대구)</label>
+                          <label htmlFor="location_daegu">5.01.(목), 동북지방통계청(대구)</label>
                         </div>
                         <div>
                           <input 
